@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var timer = TimeCounter()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("\(timer.counter)")
+                .font(.largeTitle)
+                .padding(.top, 100)
+            Spacer()
+            ButtonView(timer: timer)
+            Spacer()
         }
-        .padding()
     }
 }
 
