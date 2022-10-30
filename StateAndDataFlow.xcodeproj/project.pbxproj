@@ -18,6 +18,7 @@
 		9B996753290E9E66005F7F8E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B996752290E9E66005F7F8E /* DataManager.swift */; };
 		9B996755290EA7BE005F7F8E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B996754290EA7BE005F7F8E /* TimerView.swift */; };
 		9B99675B290EABA3005F7F8E /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99675A290EABA3005F7F8E /* ButtonAppearanceModifier.swift */; };
+		9B99675D290EE00E005F7F8E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B99675C290EE00E005F7F8E /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9B996752290E9E66005F7F8E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		9B996754290EA7BE005F7F8E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		9B99675A290EABA3005F7F8E /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		9B99675C290EE00E005F7F8E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				9B90F0C929094BCC00DCCCAA /* TimeCounter.swift */,
 				9B90F0CD290978A900DCCCAA /* UserManager.swift */,
 				9B996752290E9E66005F7F8E /* DataManager.swift */,
+				9B99675C290EE00E005F7F8E /* Launch Screen.storyboard */,
 				9B90F0BD29084E7B00DCCCAA /* Assets.xcassets */,
 				9B90F0BF29084E7B00DCCCAA /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B99675D290EE00E005F7F8E /* Launch Screen.storyboard in Resources */,
 				9B90F0C129084E7B00DCCCAA /* Preview Assets.xcassets in Resources */,
 				9B90F0BE29084E7B00DCCCAA /* Assets.xcassets in Resources */,
 			);
