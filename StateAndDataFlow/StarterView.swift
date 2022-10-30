@@ -8,23 +8,24 @@
 import SwiftUI
 
 struct StarterView: View {
-    @EnvironmentObject var user: UserManager
     
+    @EnvironmentObject private var userManager: UserManager
     
     var body: some View {
         Group {
-            if user.isReguister {
-                ContentView()
+            if userManager.user.isRegistered {
+                TimerView()
             } else {
                 RegisterView()
             }
         }
     }
-    
-    struct StarterView_Previews: PreviewProvider {
-        static var previews: some View {
-            StarterView()
-                .environmentObject(UserManager() )
-        }
+}
+
+struct StarterView_Previews: PreviewProvider {
+    static var previews: some View {
+        StarterView()
+            .environmentObject(UserManager())
     }
 }
+
